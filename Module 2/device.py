@@ -9,7 +9,7 @@ messages_to_send = 10
 
 async def main():
     # The connection string for a device should never be stored in code. For the sake of simplicity we're using an environment variable here.
-    conn_str = os.getenv("IOTHUB_DEVICE_CONNECTION_STRING")
+    conn_str = "HostName=JanuarIoT.azure-devices.net;DeviceId=minRTest;SharedAccessKey=oa8rYaP7WEioG0JBBtD2T5b543pnjAD7uAIoTGsMBdw="
 
     # The client object is used to interact with your Azure IoT hub.
     device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
