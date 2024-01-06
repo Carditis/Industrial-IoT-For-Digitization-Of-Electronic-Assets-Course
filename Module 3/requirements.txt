@@ -1,0 +1,13 @@
+matplotlib
+pandas
+numpy
+sysidentpy
+scikit-learn
+plotly
+plotly_resampler
+scipy
+SciencePlots
+torch 
+torchvision
+torchaudio
+catboost
